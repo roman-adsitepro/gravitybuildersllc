@@ -4,7 +4,9 @@
 
   <x-navigation />
 
-  Reviews here
+  <x-reviews more="true" />
+
+  <x-cta />
 
   <x-footer />
 

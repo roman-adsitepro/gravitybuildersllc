@@ -8,6 +8,10 @@
 
   <x-services class="bg-gray-50 shadow" />
 
+  <x-reviews />
+
+  <x-cta />
+
   <x-footer />
 
 </x-layout>
