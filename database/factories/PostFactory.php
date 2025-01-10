@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use App\Models\Post;
+use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class PostFactory extends Factory
@@ -12,11 +13,25 @@ class PostFactory extends Factory
   {
     return [
       'status' => Post::STATUS_PUBLIC,
-      'name' => $this->faker->name(),
+      'user_id' => User::admin()->inRandomOrder()->first()?->id,
       'title' => $this->faker->jobTitle(),
-      'rate' => $this->faker->numberBetween(4, 5),
-      'message' => $this->faker->paragraph(3),
+      'description' => $this->faker->paragraph(1),
+      'text' => $this->faker->paragraph(3),
     ];
+  }
+
+  public function draft(): static
+  {
+    return $this->state(fn (array $attributes) => [
+      'status' => Post::STATUS_DRAFT,
+    ]);
+  }
+
+  public function featured(): static
+  {
+    return $this->state(fn (array $attributes) => [
+      'featured' => true,
+    ]);
   }
 
 }

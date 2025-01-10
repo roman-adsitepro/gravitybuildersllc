@@ -11,8 +11,6 @@ class ReviewSeeder extends Seeder
 
   public function run(): void
   {
-    Review::truncate();
-
     Review::factory()->create([
         'status' => Review::STATUS_FEATURED,
         'name' => 'Samantha L.',

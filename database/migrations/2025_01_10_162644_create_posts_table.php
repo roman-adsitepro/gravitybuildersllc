@@ -12,7 +12,7 @@ return new class extends Migration
     Schema::dropIfExists('posts');
     Schema::create('posts', function (Blueprint $table) {
       $table->id();
-      $table->boolean('featured', true)->index();
+      $table->boolean('featured', true)->index()->default(false);
       $table->string('status', 16)->index();
       $table->foreignId('user_id')->index();
       $table->string('title');
