@@ -7,11 +7,13 @@ use App\Filament\Admin\Resources\ReviewResource\RelationManagers;
 use App\Models\Review;
 use Filament\Forms;
 use Filament\Forms\Components\MarkdownEditor;
+use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
@@ -26,13 +28,19 @@ class ReviewResource extends Resource
     {
         return $form
             ->schema([
-                TextInput::make('status'),
-                TextInput::make('name'),
-                TextInput::make('title'),
+                Select::make('status')
+                  ->options(Review::statuses())
+                  ->required(),
+                TextInput::make('name')
+                  ->required(),
+                TextInput::make('title')
+                  ->required(),
                 TextInput::make('rate')
-                  ->numeric(),
+                  ->numeric()
+                  ->required(),
                 MarkdownEditor::make('message')
-                  ->columnSpanFull(),
+                  ->columnSpanFull()
+                  ->required(),
             ]);
     }
 
@@ -40,27 +48,28 @@ class ReviewResource extends Resource
     {
         return $table
             ->columns([
-                Tables\Columns\TextColumn::make('status')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('name')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('title')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('rate')
-                    ->numeric()
-                    ->sortable(),
-                Tables\Columns\TextColumn::make('created_at')
-                    ->dateTime()
-                    ->sortable()
-                    ->toggleable(isToggledHiddenByDefault: true),
-                Tables\Columns\TextColumn::make('updated_at')
-                    ->dateTime()
-                    ->sortable()
-                    ->toggleable(isToggledHiddenByDefault: true),
-                Tables\Columns\TextColumn::make('deleted_at')
-                    ->dateTime()
-                    ->sortable()
-                    ->toggleable(isToggledHiddenByDefault: true),
+                TextColumn::make('status')
+                  ->badge()
+                  ->searchable(),
+                TextColumn::make('name')
+                  ->searchable(),
+                TextColumn::make('title')
+                  ->searchable(),
+                TextColumn::make('rate')
+                  ->numeric()
+                  ->sortable(),
+                TextColumn::make('created_at')
+                  ->dateTime()
+                  ->sortable()
+                  ->toggleable(isToggledHiddenByDefault: true),
+                TextColumn::make('updated_at')
+                  ->dateTime()
+                  ->sortable()
+                  ->toggleable(isToggledHiddenByDefault: true),
+                TextColumn::make('deleted_at')
+                  ->dateTime()
+                  ->sortable()
+                  ->toggleable(isToggledHiddenByDefault: true),
             ])
             ->filters([
                 //
