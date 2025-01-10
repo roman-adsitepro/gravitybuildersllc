@@ -12,13 +12,15 @@ return new class extends Migration
     Schema::dropIfExists('posts');
     Schema::create('posts', function (Blueprint $table) {
       $table->id();
+      $table->boolean('featured', true)->index();
       $table->string('status', 16)->index();
-      $table->foreignId('user_id')->constrained()->onDelete('cascade');
+      $table->foreignId('user_id')->index();
       $table->string('title');
       $table->string('slug')->unique();
       $table->text('description')->nullable();
       $table->text('text')->nullable();
       $table->timestamps();
+      $table->softDeletes();
     });
   }
 
