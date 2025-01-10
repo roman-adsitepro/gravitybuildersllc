@@ -6,6 +6,8 @@
 
   <x-about />
 
+  <x-cta />
+
   <x-footer />
 
 </x-layout>
