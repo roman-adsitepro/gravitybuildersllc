@@ -42,15 +42,7 @@
                               <span class="sr-only">Address</span>
                               <x-heroicon-o-building-office-2 class="h-7 w-6 text-gray-400" />
                           </dt>
-                          <dd>14400 Chandler Blvd #201<br>Sherman Oaks CA, 91401</dd>
-                      </div>
-
-                      <div class="flex gap-x-4">
-                          <dt class="flex-none">
-                              <span class="sr-only">Email</span>
-                              <x-heroicon-o-calendar-days class="h-7 w-6 text-gray-400" />
-                          </dt>
-                          <dd><a class="hover:text-gray-900" href="https://calendly.com/roman-imgrowth-websnac/30min">Book a Free Consultation</a></dd>
+                          <dd>10000 Cedar Blvd #1000<br>Seattle WA, 98001</dd>
                       </div>
 
                       <div class="flex gap-x-4">
@@ -58,7 +50,7 @@
                               <span class="sr-only">Telephone</span>
                               <x-heroicon-o-phone class="h-7 w-6 text-gray-400" />
                           </dt>
-                          <dd><a class="hover:text-gray-900" href="tel:+12135694925">+1 (213) 569-4925</a></dd>
+                          <dd><a class="hover:text-gray-900" href="tel:+12530000000">+1 (253) 000-0000</a></dd>
                       </div>
 
                       <div class="flex gap-x-4">
@@ -82,8 +74,8 @@
 
                   <div class="mt-8 flex justify-end">
                       <x-filament::button size="lg" type="submit" wire:loading.attr="disabled" wire:target="create">
-                          <span wire:loading.remove wire:target="create">{{ $this->data['appointment'] ? 'Book Appointment' : 'Send message' }}</span>
-                          <span wire:loading wire:target="create">{{ $this->data['appointment'] ? 'Booking...' : 'Sending...' }}</span>
+                          <span wire:loading.remove wire:target="create">Send message</span>
+                          <span wire:loading wire:target="create">Sending...</span>
                       </x-filament::button>
                   </div>
 
