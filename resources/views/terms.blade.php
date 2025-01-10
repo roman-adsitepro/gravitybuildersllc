@@ -4,7 +4,7 @@
 
   <x-navigation />
 
-  Terms
+  <x-terms />
 
   <x-footer />
 
