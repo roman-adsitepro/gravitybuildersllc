@@ -47,41 +47,50 @@ class ReviewResource extends Resource
     public static function table(Table $table): Table
     {
         return $table
-            ->columns([
-                TextColumn::make('status')
-                  ->badge()
-                  ->searchable(),
-                TextColumn::make('name')
-                  ->searchable(),
-                TextColumn::make('title')
-                  ->searchable(),
-                TextColumn::make('rate')
-                  ->numeric()
-                  ->sortable(),
-                TextColumn::make('created_at')
-                  ->dateTime()
-                  ->sortable()
-                  ->toggleable(isToggledHiddenByDefault: true),
-                TextColumn::make('updated_at')
-                  ->dateTime()
-                  ->sortable()
-                  ->toggleable(isToggledHiddenByDefault: true),
-                TextColumn::make('deleted_at')
-                  ->dateTime()
-                  ->sortable()
-                  ->toggleable(isToggledHiddenByDefault: true),
-            ])
-            ->filters([
-                //
-            ])
-            ->actions([
-                Tables\Actions\EditAction::make(),
-            ])
-            ->bulkActions([
-                Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make(),
-                ]),
-            ]);
+          ->columns([
+            TextColumn::make('id')
+              ->searchable(),
+            TextColumn::make('status')
+              ->badge()
+              ->color(function ($state) {
+                return match ($state) {
+                  Review::STATUS_PUBLIC => 'success',
+                  Review::STATUS_FEATURED => 'info',
+                  default => 'gray',
+                };
+              })
+              ->searchable(),
+            TextColumn::make('name')
+              ->searchable(),
+            TextColumn::make('title')
+              ->searchable(),
+            TextColumn::make('rate')
+              ->numeric()
+              ->sortable(),
+            TextColumn::make('created_at')
+              ->dateTime()
+              ->sortable()
+              ->toggleable(isToggledHiddenByDefault: true),
+            TextColumn::make('updated_at')
+              ->dateTime()
+              ->sortable()
+              ->toggleable(isToggledHiddenByDefault: true),
+            TextColumn::make('deleted_at')
+              ->dateTime()
+              ->sortable()
+              ->toggleable(isToggledHiddenByDefault: true),
+          ])
+          ->filters([
+            //
+          ])
+          ->actions([
+            Tables\Actions\EditAction::make(),
+          ])
+          ->bulkActions([
+            Tables\Actions\BulkActionGroup::make([
+              Tables\Actions\DeleteBulkAction::make(),
+            ]),
+          ]);
     }
 
     public static function getRelations(): array

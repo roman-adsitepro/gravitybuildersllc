@@ -4,9 +4,9 @@ namespace App\Filament\Admin\Resources\InquiryResource\Pages;
 
 use App\Filament\Admin\Resources\InquiryResource;
 use Filament\Actions;
-use Filament\Resources\Pages\EditRecord;
+use Filament\Resources\Pages\ViewRecord;
 
-class EditInquiry extends EditRecord
+class ViewInquiry extends ViewRecord
 {
     protected static string $resource = InquiryResource::class;
 

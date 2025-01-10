@@ -54,6 +54,11 @@ class UserResource extends Resource
                   ->searchable(),
                 TextColumn::make('role')
                   ->badge()
+                  ->color(fn($state) => match($state) {
+                    User::ROLE_ADMIN => 'danger',
+                    User::ROLE_USER => 'info',
+                    default => 'gray',
+                  })
                   ->searchable(),
                 TextColumn::make('email')
                   ->searchable(),

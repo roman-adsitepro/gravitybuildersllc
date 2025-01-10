@@ -14,6 +14,14 @@ class Inquiry extends Model
   const STATUS_NEW = 'new';
   const STATUS_VIEWED = 'viewed';
 
+  public static function statuses(): array
+  {
+    return [
+      self::STATUS_NEW => 'New',
+      self::STATUS_VIEWED => 'Viewed',
+    ];
+  }
+
   protected $fillable = [
     'first_name', 'last_name', 'email', 'phone', 'message'
   ];
