@@ -4,7 +4,7 @@
 
   <x-navigation />
 
-  Services here
+  <x-services class="bg-gray-50 shadow" />
 
   <x-footer />
 

@@ -6,6 +6,8 @@
 
   <x-hero />
 
+  <x-services class="bg-gray-50 shadow" />
+
   <x-footer />
 
 </x-layout>
