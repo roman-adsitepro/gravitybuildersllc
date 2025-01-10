@@ -45,13 +45,10 @@
             <h3 class="text-sm/6 font-semibold text-gray-900">Services</h3>
             <ul role="list" class="mt-6 space-y-4">
               <li>
-                <a href="#" class="text-sm/6 text-gray-600 hover:text-gray-900">Free Marketing Campaigns</a>
+                <a href="#" class="text-sm/6 text-gray-600 hover:text-gray-900">Marketing Campaigns</a>
               </li>
               <li>
                 <a href="#" class="text-sm/6 text-gray-600 hover:text-gray-900">Client Acquisition</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm/6 text-gray-600 hover:text-gray-900">Seamless Onboarding</a>
               </li>
             </ul>
           </div>
@@ -59,13 +56,10 @@
             <h3 class="text-sm/6 font-semibold text-gray-900">Support</h3>
             <ul role="list" class="mt-6 space-y-4">
               <li>
-                <a href="#" class="text-sm/6 text-gray-600 hover:text-gray-900">Submit ticket</a>
+                <a href="{{ route('contact') }}" class="text-sm/6 text-gray-600 hover:text-gray-900">Contact us</a>
               </li>
               <li>
-                <a href="#" class="text-sm/6 text-gray-600 hover:text-gray-900">Documentation</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm/6 text-gray-600 hover:text-gray-900">Guides</a>
+                <a href="{{ route('services') }}" class="text-sm/6 text-gray-600 hover:text-gray-900">Services</a>
               </li>
             </ul>
           </div>
@@ -86,13 +80,10 @@
             <h3 class="text-sm/6 font-semibold text-gray-900">Legal</h3>
             <ul role="list" class="mt-6 space-y-4">
               <li>
-                <a href="#" class="text-sm/6 text-gray-600 hover:text-gray-900">Terms of service</a>
+                <a href="{{ route('terms') }}" class="text-sm/6 text-gray-600 hover:text-gray-900">Terms of service</a>
               </li>
               <li>
-                <a href="#" class="text-sm/6 text-gray-600 hover:text-gray-900">Privacy policy</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm/6 text-gray-600 hover:text-gray-900">License</a>
+                <a href="{{ route('privacy') }}" class="text-sm/6 text-gray-600 hover:text-gray-900">Privacy policy</a>
               </li>
             </ul>
           </div>
@@ -101,12 +92,12 @@
     </div>
 
     <div class="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24 flex justify-between">
-        <p class="text-sm/6 text-gray-600">&copy; {{ date('Y') }} {{ config('app.name') }} All rights reserved.</p>
-        <p class="text-sm/6 text-gray-600">
-            <a href="{{ route('filament.admin.pages.dashboard') }}">
-              <x-heroicon-o-lock-closed class="h-4" />
-            </a>
-        </p>
+      <p class="text-sm/6 text-gray-600">&copy; {{ date('Y') }} {{ config('app.name') }} All rights reserved.</p>
+      <p class="text-sm/6 text-gray-600">
+        <a href="{{ route('filament.admin.pages.dashboard') }}">
+          <x-heroicon-o-lock-closed class="h-4" />
+        </a>
+      </p>
     </div>
 
   </div>

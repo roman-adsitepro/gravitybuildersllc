@@ -30,6 +30,7 @@ class DashboardPanelProvider extends PanelProvider
             ->passwordReset()
             ->emailVerification()
             ->favicon('/favicon-32x32.png')
+            ->homeUrl(config('app.url'))
             ->colors([ 'primary' => Color::Zinc ])
             ->discoverResources(in: app_path('Filament/Dashboard/Resources'), for: 'App\\Filament\\Dashboard\\Resources')
             ->discoverPages(in: app_path('Filament/Dashboard/Pages'), for: 'App\\Filament\\Dashboard\\Pages')
