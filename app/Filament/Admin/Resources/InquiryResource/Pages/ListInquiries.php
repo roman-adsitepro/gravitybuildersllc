@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Filament\Resources\InquiryResource\Pages;
+namespace App\Filament\Admin\Resources\InquiryResource\Pages;
 
-use App\Filament\Resources\InquiryResource;
+use App\Filament\Admin\Resources\InquiryResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
 

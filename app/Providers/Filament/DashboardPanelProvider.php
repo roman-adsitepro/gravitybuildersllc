@@ -26,9 +26,10 @@ class DashboardPanelProvider extends PanelProvider
             ->id('dashboard')
             ->path('dashboard')
             ->login()
-            ->colors([
-                'primary' => Color::Amber,
-            ])
+            ->registration()
+            ->passwordReset()
+            ->emailVerification()
+            ->colors([ 'primary' => Color::Zinc ])
             ->discoverResources(in: app_path('Filament/Dashboard/Resources'), for: 'App\\Filament\\Dashboard\\Resources')
             ->discoverPages(in: app_path('Filament/Dashboard/Pages'), for: 'App\\Filament\\Dashboard\\Pages')
             ->pages([
