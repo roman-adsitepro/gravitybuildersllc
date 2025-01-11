@@ -33,7 +33,7 @@
 
                   <h2 class="text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Get in touch</h2>
 
-                  <p class="mt-6 text-lg/8 text-gray-600">We’d love to hear from you! Whether you have questions, need assistance, or are ready to start growing your business, feel free to reach out.</p>
+                  <p class="mt-6 text-lg/8 text-gray-600">Have a project in mind? Get in touch with us today! We specialize in concrete work, hardscaping, and yard transformations. Let’s talk about how we can help you create the perfect space.</p>
 
                   <dl class="mt-10 space-y-4 text-base/7 text-gray-600">
 

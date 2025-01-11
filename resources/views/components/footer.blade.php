@@ -59,10 +59,10 @@
             <h3 class="text-sm/6 font-semibold text-gray-900">Services</h3>
             <ul role="list" class="mt-6 space-y-4">
               <li>
-                <a href="#" class="text-sm/6 text-gray-600 hover:text-gray-900">Marketing Campaigns</a>
+                <a href="#" class="text-sm/6 text-gray-600 hover:text-gray-900">Structural repairs</a>
               </li>
               <li>
-                <a href="#" class="text-sm/6 text-gray-600 hover:text-gray-900">Client Acquisition</a>
+                <a href="#" class="text-sm/6 text-gray-600 hover:text-gray-900">Exteriour repairs</a>
               </li>
             </ul>
           </div>

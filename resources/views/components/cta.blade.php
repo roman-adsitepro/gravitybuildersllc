@@ -6,10 +6,10 @@
   <div class="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
       <h2 class="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-        Ready to grow your business?
+        Start Your Project Today
       </h2>
       <p class="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-gray-300">
-        Let us handle the marketing while you focus on what you do best—delivering exceptional health and beauty services.
+        Ready to transform your home? Let us help you bring your vision to life with expert construction services.
       </p>
       <div class="mt-10 flex items-center justify-center gap-x-6">
         <a

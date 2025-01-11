@@ -8,10 +8,10 @@
         <div class="mx-auto max-w-2xl lg:text-center">
             <h2 class="text-base/7 font-semibold text-orange-600">Marketing That Works</h2>
             <p class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">
-                Our Services: Tailored for Health & Beauty Businesses
+              Our Expertise, Your Vision
             </p>
             <p class="mt-6 text-lg/8 text-gray-600">
-                At Image Marketing, we offer specialized marketing solutions designed to drive growth for spas, salons, wellness centers, and other service-based businesses in the health and beauty industry.
+              Gravity Builders LLC offers high-quality home additions, stylish remodels, and expert construction repairs to enhance and protect your home. We focus on delivering lasting, tailored solutions for every project.
             </p>
         </div>
 
@@ -19,27 +19,27 @@
             <dl class="grid max-w-xl grid-cols-1 gap-x-16 gap-y-16 lg:max-w-none lg:grid-cols-3">
 
                 <div class="flex flex-col">
-                    <dt class="flex items-center gap-x-3 text-base/7 font-semibold text-gray-900">
-                        <x-heroicon-s-currency-dollar class="size-5 flex-none text-orange-600" />
-                        Free Marketing Campaigns
+                    <dt class="flex items-center gap-x-3 text-2xl font-semibold text-gray-900">
+                        <x-heroicon-o-currency-dollar class="size-7 flex-none text-orange-600" />
+                        Home Additions
                     </dt>
                     <dd class="mt-4 flex flex-auto flex-col text-base/7 text-gray-600">
                         <p class="flex-auto">
-                            We create fully customized marketing campaigns for your business at no upfront cost. From social media ads to local SEO strategies, our campaigns are tailored to attract your ideal clients and showcase your unique services.
+                          Expand your living space with seamless, high-quality home additions.
                         </p>
                     </dd>
                 </div>
 
                 <div class="flex flex-col">
 
-                    <dt class="flex items-center gap-x-3 text-base/7 font-semibold text-gray-900">
-                        <x-heroicon-s-user-group class="size-5 flex-none text-orange-600" />
-                        Client Acquisition
+                    <dt class="flex items-center gap-x-3 text-2xl font-semibold text-gray-900">
+                        <x-heroicon-o-user-group class="size-7 flex-none text-orange-600" />
+                        Home Remodels
                     </dt>
 
                     <dd class="mt-4 flex flex-auto flex-col text-base/7 text-gray-600">
                         <p class="flex-auto">
-                            Our targeted strategies focus on bringing in new clients while increasing loyalty among your existing customer base. Using data-driven techniques, we help convert leads into long-term clients.
+                          Upgrade your home with modern, functional remodels that match your vision.
                         </p>
                     </dd>
 
@@ -47,14 +47,14 @@
 
                 <div class="flex flex-col">
 
-                    <dt class="flex items-center gap-x-3 text-base/7 font-semibold text-gray-900">
-                        <x-heroicon-s-check-badge class="size-5 flex-none text-orange-600" />
-                        Seamless Onboarding
+                    <dt class="flex items-center gap-x-3 text-2xl font-semibold text-gray-900">
+                        <x-heroicon-o-check-badge class="size-5 flex-none text-orange-600" />
+                        Construction Repairs
                     </dt>
 
                     <dd class="mt-4 flex flex-auto flex-col text-base/7 text-gray-600">
                         <p class="flex-auto">
-                            Getting started with Image Marketing is easy. Book a free consultation, and our team will handle everything from strategy development to implementation, ensuring a smooth and stress-free experience.
+                          Strengthen your home’s foundation and structure with expert repairs.
                         </p>
                     </dd>
 
