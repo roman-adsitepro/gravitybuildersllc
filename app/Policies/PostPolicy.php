@@ -11,7 +11,7 @@ class PostPolicy
 
   public function viewAny(User $user): bool
     {
-        return $user->isAdmin();
+        return false; // $user->isAdmin();
     }
 
     public function view(User $user, Post $post): bool
