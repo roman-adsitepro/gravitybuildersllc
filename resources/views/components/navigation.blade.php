@@ -12,7 +12,7 @@
   }"
 >
   <div class="mx-auto max-w-7xl px-2 lg:px-6 lg:px-8">
-    <div class="relative flex h-16 justify-between">
+    <div class="relative flex h-20 justify-between">
 
       <div class="absolute inset-y-0 left-0 flex items-center lg:hidden">
         <button
@@ -33,7 +33,7 @@
       <div class="flex flex-1 items-center justify-center lg:items-stretch lg:justify-start">
         <div class="flex shrink-0 items-center">
           <a href="{{ route('home') }}" class="inline-block">
-            <img class="h-9" src="/images/snac.webp" alt="{{ config('app.name') }}">
+            <img class="h-12" src="/images/logo-horizontal-sm.webp" alt="{{ config('app.name') }}">
           </a>
         </div>
       </div>
