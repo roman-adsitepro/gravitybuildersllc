@@ -1,57 +1,65 @@
 <div class="bg-white px-6 py-32 lg:px-8">
   <div class="mx-auto max-w-3xl text-base/7 text-gray-700">
-    <p class="text-base/7 font-semibold text-indigo-600">Introducing</p>
-    <h1 class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">JavaScript for beginners</h1>
-    <p class="mt-6 text-xl/8">Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend egestas fringilla sapien.</p>
-    <div class="mt-10 max-w-2xl">
-      <p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.</p>
-      <ul role="list" class="mt-8 max-w-xl space-y-8 text-gray-600">
-        <li class="flex gap-x-3">
-          <svg class="mt-1 size-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-            <path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd" />
-          </svg>
-          <span><strong class="font-semibold text-gray-900">Data types.</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</span>
-        </li>
-        <li class="flex gap-x-3">
-          <svg class="mt-1 size-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-            <path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd" />
-          </svg>
-          <span><strong class="font-semibold text-gray-900">Loops.</strong> Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</span>
-        </li>
-        <li class="flex gap-x-3">
-          <svg class="mt-1 size-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-            <path fill-rule="evenodd" d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm3.857-9.809a.75.75 0 0 0-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 1 0-1.06 1.061l2.5 2.5a.75.75 0 0 0 1.137-.089l4-5.5Z" clip-rule="evenodd" />
-          </svg>
-          <span><strong class="font-semibold text-gray-900">Events.</strong> Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</span>
-        </li>
-      </ul>
-      <p class="mt-8">Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.</p>
-      <h2 class="mt-16 text-pretty text-3xl font-semibold tracking-tight text-gray-900">From beginner to expert in 3 hours</h2>
-      <p class="mt-6">Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis diam.</p>
-      <figure class="mt-10 border-l border-indigo-600 pl-9">
-        <blockquote class="font-semibold text-gray-900">
-          <p>“Vel ultricies morbi odio facilisi ultrices accumsan donec lacus purus. Lectus nibh ullamcorper ac dictum justo in euismod. Risus aenean ut elit massa. In amet aliquet eget cras. Sem volutpat enim tristique.”</p>
-        </blockquote>
-        <figcaption class="mt-6 flex gap-x-4">
-          <img class="size-6 flex-none rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-          <div class="text-sm/6"><strong class="font-semibold text-gray-900">Maria Hill</strong> – Marketing Manager</div>
-        </figcaption>
-      </figure>
-      <p class="mt-10">Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.</p>
-    </div>
-    <figure class="mt-16">
-      <img class="aspect-video rounded-xl bg-gray-50 object-cover" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3" alt="">
-      <figcaption class="mt-4 flex gap-x-2 text-sm/6 text-gray-500">
-        <svg class="mt-0.5 size-5 flex-none text-gray-300" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
-          <path fill-rule="evenodd" d="M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0Zm-7-4a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM9 9a.75.75 0 0 0 0 1.5h.253a.25.25 0 0 1 .244.304l-.459 2.066A1.75 1.75 0 0 0 10.747 15H11a.75.75 0 0 0 0-1.5h-.253a.25.25 0 0 1-.244-.304l.459-2.066A1.75 1.75 0 0 0 9.253 9H9Z" clip-rule="evenodd" />
-        </svg>
-        Faucibus commodo massa rhoncus, volutpat.
-      </figcaption>
-    </figure>
-    <div class="mt-16 max-w-2xl">
-      <h2 class="text-pretty text-3xl font-semibold tracking-tight text-gray-900">Everything you need to get up and running</h2>
-      <p class="mt-6">Purus morbi dignissim senectus mattis adipiscing. Amet, massa quam varius orci dapibus volutpat cras. In amet eu ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut viverra ridiculus non molestie. Gravida quis fringilla amet eget dui tempor dignissim. Facilisis auctor venenatis varius nunc, congue erat ac. Cras fermentum convallis quam.</p>
-      <p class="mt-8">Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.</p>
-    </div>
+    <x-markdown class="prose max-w-full">
+
+# Privacy Policy
+
+Effective Date: January 17, 2025
+
+At **Gravity Builders**, we respect your privacy and are committed to protecting the personal information you share with us. This Privacy Policy explains how we collect, use, and safeguard your data when you visit our website (**the "Site"**) or interact with our services.
+
+By using the Site, you consent to the practices outlined in this Privacy Policy.
+
+## 1. Information We Collect
+We collect the following types of information when you visit the Site or use our services:
+
+### Personal Information
+- **Account Information**: When you create an account, we collect personal information such as your name, email address, phone number, and billing information.
+- **Communications**: If you contact us through the Site (e.g., through a contact form or email), we collect the information you provide, such as your name, email address, and message content.
+
+### Usage Data
+- **Cookies and Tracking Technologies**: We use cookies and similar tracking technologies to collect information about your interactions with the Site, such as your IP address, browser type, and browsing activity. This helps us improve the performance of the Site and enhance your experience.
+
+## 2. How We Use Your Information
+We use the information we collect for the following purposes:
+
+- To provide and improve our services
+- To communicate with you, including responding to inquiries and providing updates about your account or services
+- To personalize your experience on the Site
+- To analyze and monitor usage patterns for website performance and marketing purposes
+- To comply with legal obligations
+
+## 3. Sharing Your Information
+We do not sell, rent, or trade your personal information to third parties. However, we may share your information with trusted service providers to assist in operating the Site or conducting business, such as:
+
+- **Service Providers**: We may share your information with third-party vendors who assist in managing our website, hosting, payment processing, and customer support.
+- **Legal Compliance**: We may disclose your information to comply with legal obligations, such as in response to a subpoena or other legal processes.
+
+## 4. Data Security
+We take reasonable precautions to protect your personal information from unauthorized access, use, or disclosure. While we strive to implement security measures, no system is completely secure, and we cannot guarantee the absolute protection of your information.
+
+## 5. Your Choices
+You have the following options regarding your personal information:
+
+- **Opt-out of Communications**: If you no longer wish to receive promotional emails or other communications from us, you can unsubscribe by following the instructions in the email or contacting us directly.
+- **Cookies**: Most browsers allow you to manage cookie settings. You can choose to disable cookies, but this may affect your ability to use certain features of the Site.
+
+## 6. Data Retention
+We retain your personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy or as required by law.
+
+## 7. Children's Privacy
+The Site is not intended for children under the age of 13. We do not knowingly collect or solicit personal information from children under 13. If we learn that we have inadvertently collected personal information from a child under 13, we will take steps to delete such information.
+
+## 8. Changes to This Privacy Policy
+We may update this Privacy Policy from time to time. When we make changes, we will post the updated policy on this page and update the effective date at the top of the page. We encourage you to review this Privacy Policy periodically.
+
+## 9. Contact Us
+If you have any questions or concerns about this Privacy Policy or how we handle your personal information, please contact us at:
+
+[Contact Information]({{ route('contact') }})
+
+Thank you for trusting Gravity Builders with your information!
+
+    </x-markdown>
   </div>
 </div>
