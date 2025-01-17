@@ -8,6 +8,7 @@ use App\Models\Review;
 use Filament\Forms;
 use Filament\Forms\Components\MarkdownEditor;
 use Filament\Forms\Components\Select;
+use Filament\Forms\Components\SpatieMediaLibraryFileUpload;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
@@ -41,6 +42,9 @@ class ReviewResource extends Resource
                 MarkdownEditor::make('message')
                   ->columnSpanFull()
                   ->required(),
+                SpatieMediaLibraryFileUpload::make('avatar')
+                  ->collection('avatar')
+                  ->conversion('preview')
             ]);
     }
 

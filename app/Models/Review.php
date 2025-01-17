@@ -79,7 +79,7 @@ class Review extends Model implements HasMedia
         $this->addMediaCollection('avatar')
             ->singleFile()
             ->withResponsiveImages()
-            ->useFallbackUrl('/images/snac-placeholder.webp')
+            ->useFallbackUrl('/images/user-placeholder.webp')
             ->registerMediaConversions(function (Media $media) {
                 $this->addMediaConversion('preview')
                     ->width(300)

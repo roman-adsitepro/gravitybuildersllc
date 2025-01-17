@@ -22,11 +22,6 @@
         <div class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2 gap-24">
             @foreach($featured->take(2) as $review)
                 <div class="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8">
-                    <img
-                        class="h-24 self-start"
-                        src="{{ $review->getFirstMediaUrl('company_logo') }}"
-                        alt="{{ $review->name }} {{ $review->title }} company logo"
-                    >
                     <figure class="mt-10 flex flex-auto flex-col justify-between">
                         <blockquote class="text-lg/8 text-gray-900">
                             <p>“{{ $review->message }}”</p>
