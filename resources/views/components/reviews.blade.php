@@ -5,7 +5,7 @@
 
 <section class="py-16 sm:py-24 {{ $class }}">
 
-    <div class="mx-auto max-w-2xl lg:text-center">
+    <div class="mx-auto max-w-2xl lg:text-center mx-auto px-6 lg:px-8">
         <h2 class="text-base/7 font-semibold text-lime-600">
           Crafting Quality, Creating Value
         </h2>
@@ -19,7 +19,7 @@
 
     <div class="mt-16 mx-auto max-w-7xl px-6 lg:px-8">
 
-        <div class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2 gap-24">
+        <div class="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2 gap-8 lg:gap-24">
             @foreach($featured->take(2) as $review)
                 <div class="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8">
                     <figure class="mt-10 flex flex-auto flex-col justify-between">
@@ -42,7 +42,7 @@
             @endforeach
         </div>
 
-        <div class="xl:mt-24 justify-center flex gap-6">
+        <div class="lg:mt-24 justify-center flex gap-6">
 
             <x-filament::button tag="a" size="lg" href="{{ route('contact')}}">
                 Get started
