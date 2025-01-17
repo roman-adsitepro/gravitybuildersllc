@@ -14,8 +14,8 @@
         You need to log in or provide proper credentials to access this page.
       </p>
       <div class="mt-10 flex items-center justify-center gap-x-6">
-        <x-filament::button tag="a" href="{{ route('filament.admin.auth.login') }}" size="xl">Log In</x-filament::button>
-        <x-filament::link href="{{ route('home') }}" color="gray" size="xl">Go back home</x-filament::link>
+        <x-filament::button tag="a" href="{{ route('filament.admin.auth.login') }}">Log In</x-filament::button>
+        <x-filament::link href="{{ route('home') }}" color="gray"><span aria-hidden="true">&larr;</span> Return to Home</x-filament::link>
         <x-filament::link href="{{ route('contact') }}" color="gray">Contact support <span aria-hidden="true">&rarr;</span></x-filament::link>
       </div>
     </div>

@@ -1,6 +1,6 @@
 <x-layout>
 
-  <main class="grid min-h-screen place-items-center px-6 py-24 sm:py-32 lg:px-8 bg-gray-50 shadow-inner">
+  <main class="place-items-center px-6 py-24 sm:py-32 lg:px-8 bg-gray-50 shadow-inner">
     <div class="text-center">
       <p class="text-base font-semibold text-lime-500">
         503

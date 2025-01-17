@@ -14,7 +14,7 @@
         The page has expired due to inactivity. Please refresh and try again.
       </p>
       <div class="mt-10 flex items-center justify-center gap-x-6">
-        <x-filament::button tag="a" href="{{ route('home') }}" size="xl">Go back home</x-filament::button>
+        <x-filament::button tag="a" href="{{ route('home') }}"><span aria-hidden="true">&larr;</span> Return to Home</x-filament::button>
         <x-filament::link href="{{ route('contact') }}" color="gray">Contact support <span aria-hidden="true">&rarr;</span></x-filament::link>
       </div>
     </div>
