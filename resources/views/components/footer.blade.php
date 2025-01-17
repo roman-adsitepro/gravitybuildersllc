@@ -7,7 +7,7 @@
         <img class="h-32" src="/images/logo.webp" alt="{{ config('app.name') }}">
 
         <p class="text-balance text-sm/6 text-gray-600">
-          Marketing That Delivers Results, Not Promises.
+          Your Vision, Our Expertise
         </p>
 
         <div class="flex gap-x-6">

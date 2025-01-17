@@ -6,8 +6,8 @@
 <section class="py-16 sm:py-24 {{ $class }}">
 
     <div class="mx-auto max-w-2xl lg:text-center">
-        <h2 class="text-base/7 font-semibold text-orange-600">
-            Marketing That Works
+        <h2 class="text-base/7 font-semibold text-green-500">
+          Crafting Quality, Creating Value
         </h2>
         <p class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">
             What Our Clients Are Saying

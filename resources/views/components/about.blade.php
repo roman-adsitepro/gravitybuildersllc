@@ -1,7 +1,7 @@
 <div class="overflow-hidden bg-gray-50 py-24 sm:py-32">
   <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
     <div class="max-w-4xl">
-      <p class="text-base/7 font-semibold text-orange-600">The Story of Gravity Builders LLC</p>
+      <p class="text-base/7 font-semibold text-green-500">The Story of Gravity Builders LLC</p>
       <h1 class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Vince Hola's Journey to Excellence</h1>
       <p class="mt-6 text-balance text-xl/8 text-gray-700">Vince Hola started Gravity Builders LLC with a dream of transforming homes and outdoor spaces into masterpieces. But it wasn’t always a smooth ride. From the beginning, he knew that to stand out in a competitive industry, he had to offer more than just concrete pouring or driveway repairs. He needed to build a reputation grounded in trust, craftsmanship, and customer satisfaction.</p>
     </div>
@@ -59,20 +59,20 @@
         <hr class="mt-6 border-t border-gray-200">
         <dl class="mt-6 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
           <div class="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
-              <dt class="text-sm/6 text-gray-700">Revenue Generated</dt>
-              <dd class="order-first text-6xl font-semibold tracking-tight">$<span>25</span>M</dd>
+              <dt class="text-sm/6 text-gray-700">Years of Expertise</dt>
+              <dd class="flex gap-1 items-center order-first text-6xl font-semibold tracking-tight"><span>20</span><span class="text-gray-300 text-4xl">+</span></dd>
           </div>
           <div class="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
-              <dt class="text-sm/6 text-gray-700">Businesses Served</dt>
-              <dd class="order-first text-6xl font-semibold tracking-tight"><span>1.5</span>K</dd>
+              <dt class="text-sm/6 text-gray-700">Completed Projects</dt>
+              <dd class="flex gap-1 items-center order-first text-6xl font-semibold tracking-tight"><span>500</span><span class="text-gray-300 text-4xl">+</span></dd>
           </div>
           <div class="flex flex-col gap-y-2 max-sm:border-b max-sm:border-dotted max-sm:border-gray-200 max-sm:pb-4">
-              <dt class="text-sm/6 text-gray-700">Marketing Campaigns</dt>
-              <dd class="order-first text-6xl font-semibold tracking-tight"><span>750</dd>
+              <dt class="text-sm/6 text-gray-700">Satisfied Clients</dt>
+              <dd class="flex gap-1 items-center order-first text-6xl font-semibold tracking-tight"><span>1000</span><span class="text-gray-300 text-4xl">+</span></dd>
           </div>
           <div class="flex flex-col gap-y-2">
-              <dt class="text-sm/6 text-gray-700">Leads Generated</dt>
-              <dd class="order-first text-6xl font-semibold tracking-tight"><span>5</span>M</dd>
+              <dt class="text-sm/6 text-gray-700">Team Members</dt>
+              <dd class="flex gap-1 items-center order-first text-6xl font-semibold tracking-tight"><span>30</span><span class="text-gray-300 text-4xl">+</span></dd>
           </div>
         </dl>
       </div>
