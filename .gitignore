@@ -5,6 +5,7 @@
 /public/storage
 /public/css
 /public/js
+/public/media
 /storage/*.key
 /storage/pail
 /vendor
