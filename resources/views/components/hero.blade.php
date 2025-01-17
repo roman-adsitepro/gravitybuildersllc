@@ -2,7 +2,10 @@
   <div class="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
     <div class="px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-48 lg:pt-40 xl:col-span-6">
       <div class="mx-auto max-w-lg lg:mx-0">
-        <h1 class="mt-24 text-pretty text-5xl font-semibold tracking-tight text-white sm:mt-10 sm:text-7xl">
+        <h2 class="mt-24 text-base/7 font-semibold text-lime-600">
+          Building the Future, Today
+        </h2>
+        <h1 class="mt-0 text-pretty text-5xl font-semibold tracking-tight text-white sm:text-7xl">
           Building Dreams
         </h1>
         <p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">

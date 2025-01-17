@@ -5,6 +5,7 @@
 <div class="relative isolate overflow-hidden bg-gray-900">
   <div class="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
+      <p class="text-base/7 font-semibold text-lime-600">Where Quality Meets Craftsmanship</p>
       <h2 class="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">
         Start Your Project Today
       </h2>
@@ -12,11 +13,8 @@
         Ready to transform your home? Let us help you bring your vision to life with expert construction services.
       </p>
       <div class="mt-10 flex items-center justify-center gap-x-6">
-        <a
-          href="{{ route('contact') }}"
-          class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
-        >Get started</a>
-        <a href="{{ route('about') }}" class="text-sm/6 font-semibold text-white">Learn more <span aria-hidden="true">→</span></a>
+        <x-filament::button href="{{ route('contact') }}" tag="a">Get started</x-filament::button>
+        <x-filament::link href="{{ route('about') }}">Learn more <span aria-hidden="true">→</span></x-filament::link>
       </div>
     </div>
   </div>

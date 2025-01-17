@@ -6,7 +6,7 @@
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
 
         <div class="mx-auto max-w-2xl lg:text-center">
-            <h2 class="text-base/7 font-semibold text-green-500">Transforming Spaces with Precision</h2>
+            <h2 class="text-base/7 font-semibold text-lime-600">Transforming Spaces with Precision</h2>
             <p class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance">
               Our Expertise, Your Vision
             </p>
@@ -20,7 +20,7 @@
 
                 <div class="flex flex-col">
                     <dt class="flex items-center gap-x-3 text-2xl font-semibold text-gray-900">
-                        <x-heroicon-o-currency-dollar class="size-7 flex-none text-green-500" />
+                        <x-heroicon-o-currency-dollar class="size-7 flex-none text-lime-600" />
                         Home Additions
                     </dt>
                     <dd class="mt-4 flex flex-auto flex-col text-base/7 text-gray-600">
@@ -33,7 +33,7 @@
                 <div class="flex flex-col">
 
                     <dt class="flex items-center gap-x-3 text-2xl font-semibold text-gray-900">
-                        <x-heroicon-o-user-group class="size-7 flex-none text-green-500" />
+                        <x-heroicon-o-user-group class="size-7 flex-none text-lime-600" />
                         Home Remodels
                     </dt>
 
@@ -48,7 +48,7 @@
                 <div class="flex flex-col">
 
                     <dt class="flex items-center gap-x-3 text-2xl font-semibold text-gray-900">
-                        <x-heroicon-o-check-badge class="size-5 flex-none text-green-500" />
+                        <x-heroicon-o-check-badge class="size-5 flex-none text-lime-600" />
                         Construction Repairs
                     </dt>
 

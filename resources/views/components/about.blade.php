@@ -1,7 +1,7 @@
 <div class="overflow-hidden bg-gray-50 py-24 sm:py-32">
   <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
     <div class="max-w-4xl">
-      <p class="text-base/7 font-semibold text-green-500">The Story of Gravity Builders LLC</p>
+      <p class="text-base/7 font-semibold text-lime-600">The Story of Gravity Builders LLC</p>
       <h1 class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Vince Hola's Journey to Excellence</h1>
       <p class="mt-6 text-balance text-xl/8 text-gray-700">Vince Hola started Gravity Builders LLC with a dream of transforming homes and outdoor spaces into masterpieces. But it wasn’t always a smooth ride. From the beginning, he knew that to stand out in a competitive industry, he had to offer more than just concrete pouring or driveway repairs. He needed to build a reputation grounded in trust, craftsmanship, and customer satisfaction.</p>
     </div>

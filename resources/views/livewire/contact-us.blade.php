@@ -4,7 +4,7 @@
 
       <div class="px-6 py-24 sm:py-32 lg:px-8 bg-gray-100">
           <div class="mx-auto max-w-2xl text-center">
-              <p class="text-base/7 font-semibold text-green-600">Success</p>
+              <p class="text-base/7 font-semibold text-lime-600">Success</p>
               <h2 class="mt-2 text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">Thank you!</h2>
               <p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">Thank you for your inquiry! We will get<br> back to you as soon as we can.</p>
           </div>
