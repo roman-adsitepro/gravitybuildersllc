@@ -95,6 +95,7 @@ class InquiryResource extends Resource
       ->filters([
         //
       ])
+      ->defaultSort('created_at', 'desc')
       ->recordUrl(fn($record) => route('filament.admin.resources.inquiries.view', $record))
       ->actions([
         Tables\Actions\ViewAction::make(),

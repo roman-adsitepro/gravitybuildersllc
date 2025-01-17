@@ -2,7 +2,8 @@
 
 namespace App\Livewire;
 
-use Filament\Forms\Components\Checkbox;
+use App\Events\Inquiry\Created;
+use App\Models\Inquiry;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Concerns\InteractsWithForms;

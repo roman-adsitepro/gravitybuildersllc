@@ -8,7 +8,6 @@
       }
     </style>
 
-    @livewire('notifications')
     @vite('resources/css/app.css')
     @filamentStyles
     @livewireStyles
@@ -18,6 +17,10 @@
   <body>
 
     {{ $slot }}
+
+    @livewire('notifications')
+    @vite('resources/js/app.js')
+    @filamentScripts
 
   </body>
 </html>

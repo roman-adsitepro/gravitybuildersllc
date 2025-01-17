@@ -61,4 +61,9 @@ class User extends Authenticatable implements FilamentUser, MustVerifyEmail
     return $query->where('role', User::ROLE_ADMIN);
   }
 
+  public function scopeVerified($query)
+  {
+    return $query->whereNotNull('email_verified_at');
+  }
+
 }
