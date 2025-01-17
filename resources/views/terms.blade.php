@@ -1,6 +1,5 @@
 <x-layout>
-  @seo(['title' => config('app.name')])
-  @seo(['description' => 'This is the home page of my website.'])
+  @seo(['title' => 'Privacy Policy | ' . config('app.name')])
 
   <x-navigation />
 

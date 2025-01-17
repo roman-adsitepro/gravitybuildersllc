@@ -1,6 +1,8 @@
 <x-layout>
-  @seo(['title' => 'Services | ' . config('app.name')])
-  @seo(['description' => 'This is the home page of my website.'])
+  @seo(['title' => 'Our Services | ' . config('app.name')])
+  @seo(['description' => 'Explore the range of professional construction and landscaping services offered by Gravity Builders. From residential to commercial projects, we provide quality, reliable solutions to meet all your building and landscaping needs.'])
+  @seo(['keywords' => 'construction services, landscaping services, building services, residential construction, commercial construction, landscaping solutions, professional builders, trusted construction company, Gravity Builders services, custom construction projects'])
+  @seo(['image' => config('app.url') . '/images/builders.jpg'])
 
   <x-navigation />
 
