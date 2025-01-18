@@ -62,7 +62,7 @@
                 <a href="{{ route('services') }}" class="text-sm/6 text-gray-600 hover:text-gray-900">Structural repairs</a>
               </li>
               <li>
-                <a href="{{ route('services') }}" class="text-sm/6 text-gray-600 hover:text-gray-900">Exteriour repairs</a>
+                <a href="{{ route('services') }}" class="text-sm/6 text-gray-600 hover:text-gray-900">Exterior repairs</a>
               </li>
             </ul>
           </div>

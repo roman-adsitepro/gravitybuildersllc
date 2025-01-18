@@ -20,7 +20,7 @@
 
                 <div class="flex flex-col">
                     <dt class="flex items-center gap-x-3 text-2xl font-semibold text-gray-900">
-                        <x-heroicon-o-currency-dollar class="size-7 flex-none text-lime-600" />
+                        <x-heroicon-o-home class="size-7 flex-none text-lime-600" />
                         Home Additions
                     </dt>
                     <dd class="mt-4 flex flex-auto flex-col text-base/7 text-gray-600">
@@ -33,7 +33,7 @@
                 <div class="flex flex-col">
 
                     <dt class="flex items-center gap-x-3 text-2xl font-semibold text-gray-900">
-                        <x-heroicon-o-user-group class="size-7 flex-none text-lime-600" />
+                        <x-heroicon-o-home-modern class="size-7 flex-none text-lime-600" />
                         Home Remodels
                     </dt>
 
@@ -48,7 +48,7 @@
                 <div class="flex flex-col">
 
                     <dt class="flex items-center gap-x-3 text-2xl font-semibold text-gray-900">
-                        <x-heroicon-o-check-badge class="size-5 flex-none text-lime-600" />
+                        <x-heroicon-o-wrench-screwdriver class="size-5 flex-none text-lime-600" />
                         Construction Repairs
                     </dt>
 
